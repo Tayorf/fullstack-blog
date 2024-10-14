@@ -1,19 +1,60 @@
 // Vaporwave Color Scheme
 
 // Colors
-$body-bg: #0091ea;        // Bright Blue
-$primary: #ff6ad5;        // Neon Pink
-$secondary: #ffdb58;      // Bright Yellow
-$success: #00f764;        // Neon Green
-$info: #01cdfe;           // Bright Cyan
+$body-bg: #ffffff;        // Bright Blue
+$primary: #0fc159;        // Neon Pink
+$secondary: #9dd3f0;      // Bright Yellow
+$success: #0fc159;        // Neon Green
+$info: #0fc159;           // Bright Cyan
 $warning: #ff61a6;        // Pinkish
-$danger: #ff2965;         // Neon Red
-$light: #9A83D4;          // Pastel Purple
-$dark: #260e37;           // Dark Blueish Purple
+$danger: #ff0000;         // Neon Red
+$light: #eae7e7;          // Pastel Purple
+$dark: #000000;           // Dark Blueish Purple
 
 // Link Colors
 $link-color: #01cdfe;     // Bright Cyan
 $link-hover-color: darken($link-color, 10%);
 
+$font-family-base: "Poppins", sans-serif;
+
+.pe-auto {
+   cursor: pointer;
+}
+
+.main {
+   background-color: #ffffff;
+}
+.image {
+   width: 80px;
+}
+
+.nav-link {
+   text-decoration: none;
+}
+
+.navbar-collapse {
+   justify-content: flex-end;
+}
+
+.large-textarea {
+   height: 100vh;
+   min-height: 100px;
+   max-height: 500px;
+}
+
+.blog-tags {
+   font-size: 15px;
+}
+
+
+.social-icon {
+   padding-right: 10px;
+}
+
+.navbar-toggler-color {
+  color: #0fc159;   
+}
+
 // Bootstrap Import
 @import '~bootstrap/scss/bootstrap.scss';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap")
