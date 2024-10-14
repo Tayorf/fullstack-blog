@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Footer = () => {
 
+const Footer = () => {
+	// Cannot get the links to not be the full width of the div when in a column
 	return (
 		<>
 			<div className="card-footer bg-info mt-5">
@@ -28,8 +29,13 @@ const Footer = () => {
 							Donate
 						</Link>
 					</div>
+				</div>
+			</div>
 			<div className="card-footer">
 				<p className="text-center p-3 m-0">@2024 The Mulligan Mashup All rights reserved</p>
 			</div>
-		)
+		</>
+	);
+};
+
 export default Footer;
