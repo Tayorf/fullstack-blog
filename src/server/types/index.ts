@@ -1,8 +1,8 @@
 export interface authors{
     id:number;
     created_at:Date;
-     name: string;
-     email:string;
+    name: string;
+    email:string;
 };
 
 export interface blogs{

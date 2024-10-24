@@ -6,7 +6,7 @@ const getOne =(id:number) => SelectQuery<authors>('SELECT * from authors WHERE i
 
 interface NewAuthorObject{
     email:string;
-    handle:string
+    name:string
 };
 
 const create = (newAuthor: NewAuthorObject) => ModifyQuery('INSERT INTO authors SET ?', [newAuthor]);
